@@ -1,0 +1,18 @@
+(** @canonical Libs_core.Eval *)
+module Eval = Libs_core__Eval
+
+
+(** @canonical Libs_core.Lexer *)
+module Lexer = Libs_core__Lexer
+
+
+(** @canonical Libs_core.Parser *)
+module Parser = Libs_core__Parser
+
+
+(** @canonical Libs_core.ParserInterface *)
+module ParserInterface = Libs_core__ParserInterface
+
+
+(** @canonical Libs_core.Syntax *)
+module Syntax = Libs_core__Syntax

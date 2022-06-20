@@ -1,0 +1,50 @@
+type token =
+    WITH
+  | VAR of string
+  | UNEQUAL
+  | TRUE
+  | TIMES
+  | THIS
+  | THEN
+  | SKIP
+  | SEMICOLON2
+  | SEMICOLON
+  | RPAREN
+  | REMAINDER
+  | RBRACE
+  | PLUS
+  | PERIOD
+  | OR
+  | NOT
+  | MINUS
+  | LPAREN
+  | LET
+  | LESS
+  | LBRACE
+  | INT of int
+  | IN
+  | IF
+  | FUN
+  | FALSE
+  | EQUAL
+  | EOF
+  | ELSE
+  | DIVIDE
+  | COPY
+  | COMMA
+  | ASSIGN
+  | ARROW
+  | AND
+val menhir_begin_marker : int
+val xv_toplevel : Syntax.toplevel_cmd
+val xv_option_SEMICOLON2_ : unit option
+val xv_non_app : Syntax.expr
+val xv_file : Syntax.toplevel_cmd list
+val xv_fields : (string * Syntax.expr) list
+val xv_field : string * Syntax.expr
+val xv_expr : Syntax.expr
+val xv_command : Syntax.toplevel_cmd
+val xv_boolean : Syntax.expr
+val xv_arith : Syntax.expr
+val xv_app : Syntax.expr
+val menhir_end_marker : int

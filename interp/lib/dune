@@ -1,0 +1,9 @@
+(ocamllex Lexer)
+
+(menhir
+ (modules Parser))
+
+(library
+ (name libs_core)
+ (flags
+  (:standard -w -39)))

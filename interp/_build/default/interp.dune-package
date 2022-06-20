@@ -1,0 +1,4 @@
+(lang dune 3.2)
+(name interp)
+(sections (lib .))
+(files (lib (META dune-package opam)))
